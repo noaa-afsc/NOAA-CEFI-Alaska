@@ -1,2 +1,2 @@
 # NOAA-CEFI-Alaska
-Alaska Climate Ecosystem and Fisheries Initiative code, products and project tracking site 
+Alaska Climate Ecosystem and Fisheries Initiative code, products and project tracking repo.

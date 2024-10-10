@@ -1,0 +1,33 @@
+# exclude these files  :
+# for more info see: https://git-scm.com/docs/gitignore
+# ** A leading "**" followed by a slash means match in all directories. Eg. ”**/foo/bar" 
+# 		matches file or directory "bar" anywhere that is directly under directory "foo".
+# A trailing "/**" matches everything inside. 
+# An asterisk "*" matches anything except a slash.
+# A slash followed by two consecutive asterisks then a slash matches 
+# 		zero or more directories. For example, "a/**/b" matches "a/b", "a/x/b", "a/x/y/b" and so on.
+# An optional prefix "!" which negates the pattern; any matching file excluded 
+# 		by a previous pattern will become included again.
+######################
+# OS generated files #
+######################
+*.DS_Store*
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Files to ignore
+######################
+*NotShared
+.Rproj.user
+temp/*
+**/archived/*
+
+# files to keep #
+######################
+!temp/.gitkeep
+
+
